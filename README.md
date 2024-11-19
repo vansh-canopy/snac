@@ -1,6 +1,6 @@
 # SNAC 🍿
 
-Multi-**S**cale **N**eural **A**udio **C**odec (SNAC) compresses audio into discrete codes at a low bitrate.
+Multi-**S**cale **N**eural **A**udio **C**odec (SNAC) compresses audio into discrete codes at a low bitrate. For more information, read the paper: https://arxiv.org/abs/2410.14411
 
 | 🎸 Music samples                                                                                         | 🗣️ Speech samples                                                                                       |
 |----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
@@ -70,3 +70,16 @@ resolution.
 ## Acknowledgements
 
 Module definitions are adapted from the [Descript Audio Codec](https://github.com/descriptinc/descript-audio-codec).
+
+## Citation
+
+If this code contributes to your research, please cite our work:
+
+```
+@inproceedings{siuzdak2024snac,
+  title={SNAC: Multi-Scale Neural Audio Codec},
+  author={Siuzdak, Hubert and Gr{\"o}tschla, Florian and Lanzend{\"o}rfer, Luca A},
+  booktitle={Audio Imagination: NeurIPS 2024 Workshop AI-Driven Speech, Music, and Sound Generation},
+  year={2024}
+}
+```
